@@ -1,10 +1,10 @@
 --- 
 layout: page
-title : Portfolio 
-permalink: /portfolio/
+title : Services 
+permalink: /services/
 subtitle: "We can provide expertiese in different security domains" 
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Archive]
 ---
 
-{% include portfolio.html %}
+{% include services.html %}

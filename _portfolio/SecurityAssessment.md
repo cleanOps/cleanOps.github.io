@@ -10,13 +10,10 @@ The requirement to secure today’s network services is no longer focused on sec
 
 In order to keep up with the risk of attacks, organisations need to utilise professional expertise to secure their infrastructure and applications. Deloitte offers services that help mitigating the risk of security breaches:
 
-Vulnerability assessment: assessment of the risks posed by security vulnerabilities in your systems
-
-Infrastructure penetration testing: penetration testing to simulate a hacker attack on your critical network infrastructure
-
-Application penetration testing: assessment to determine flaws in the web applications that may allow unauthorized access or unauthorized transactions
-
-Configuration review: review of your servers configuration to determine weaknesses
+- Vulnerability assessment: assessment of the risks posed by security vulnerabilities in your systems
+- Infrastructure penetration testing: penetration testing to simulate a hacker attack on your critical network infrastructure
+- Application penetration testing: assessment to determine flaws in the web applications that may allow unauthorized access or unauthorized transactions
+- Configuration review: review of your servers configuration to determine weaknesses
 
 cleanOps work plan has been aligned to your needs and operates proactively to identify threats in all external or internal access points and suggest clear remediation options.
 

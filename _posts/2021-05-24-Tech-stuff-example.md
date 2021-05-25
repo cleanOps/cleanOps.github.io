@@ -5,7 +5,7 @@ feature-img: "assets/img/feature-img/circuit.jpeg"
 thumbnail: "assets/img/thumbnails/feature-img/circuit.jpeg"
 ---
 
-The idea behind Shield Security Inc was born on a rainy Sunday afternoon. 
+The idea behind cleanOps was born on a rainy Sunday afternoon. 
 
 
 

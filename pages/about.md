@@ -3,12 +3,12 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
-tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hello everyone and welcome to Shield Security Inc. We are a small team of highly capable individual. We all have different level of expertiese and experience and we all bring to the table new values to protect your valuable business. Our expertiese span across technical and managerial aspects. 
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+Please for any further enquire get back to us at the following details:
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+Phone number:12345
+Email Address: aaaa@gmail.com
  

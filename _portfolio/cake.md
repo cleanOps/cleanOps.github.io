@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Tic tac toe
-feature-img: "assets/img/portfolio/ttt.png"
-img: "assets/img/portfolio/ttt.png"
-date: September 2014
+title: Cake
+feature-img: "assets/img/portfolio/cake.png"
+img: "assets/img/portfolio/cake.png"
+date: 27 September 2015
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
@@ -18,4 +18,3 @@ vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 
 Use this area of the page to describe your project. 
 The icon above is part of a free icon set by Flat Icons. 
-

@@ -5,7 +5,9 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 ---
 
-Hello everyone and welcome to Shield Security Inc. We are a small team of highly capable individual. We all have different level of expertiese and experience and we all bring to the table new values to protect your valuable business. Our expertiese span across technical and managerial aspects. 
+Hello everyone and welcome to cleanOps. We are a small team of highly ecapable individual. 
+We all have different level of expertiese and experience and we all bring to the table new values to protect your valuable business, let this be your people, your data, your critical assets or your infrastructure.
+Our expertiese span across technical and managerial aspects. 
 
 Please for any further enquire get back to us at the following details:
 

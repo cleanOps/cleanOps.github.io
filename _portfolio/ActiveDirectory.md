@@ -3,7 +3,7 @@ layout: post
 title: Active Directory
 feature-img: "assets/img/portfolio/AD.JPG"
 img: "assets/img/portfolio/AD.JPG"
-date: 27 September 2015
+date: 2021-05-20
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 

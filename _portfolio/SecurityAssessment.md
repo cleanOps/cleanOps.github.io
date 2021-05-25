@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Security Assessment
-feature-img: "assets/img/portfolio/submarine.png"
-img: "assets/img/portfolio/submarine.png"
-date: 2017-09-03
+feature-img: "assets/img/portfolio/seass.JPG"
+img: "assets/img/portfolio/seass.JPG"
+date: 2021-05-23
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 

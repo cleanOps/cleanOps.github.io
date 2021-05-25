@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Active Directory
-feature-img: "assets/img/portfolio/cake.png"
-img: "assets/img/portfolio/cake.png"
+feature-img: "assets/img/portfolio/AD.JPG"
+img: "assets/img/portfolio/AD.JPG"
 date: 27 September 2015
 ---
 

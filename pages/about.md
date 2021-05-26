@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/travel.PNG"
+feature-img: "assets/img/pexels/travel.png"
 ---
 
 Hello everyone and welcome to cleanOps. We are a small team of highly capable individual with a strong will to succeed. 

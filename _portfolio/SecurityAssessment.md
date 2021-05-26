@@ -19,7 +19,7 @@ In order to keep up with the risk of attacks, organisations need to utilise prof
 - Configuration review: review of your servers configuration to determine weaknesses
 
 
-cleanOps work plan has been aligned to your needs and operates proactively to identify threats in all external or internal access points and suggest clear remediation options.
+CleanOps work plan has been aligned to your needs and operates proactively to identify threats in all external or internal access points and suggest clear remediation options.
 
 Our approach can be summarised as follows:
 

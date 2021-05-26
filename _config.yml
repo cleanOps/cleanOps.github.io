@@ -3,13 +3,13 @@ baseurl: ""
 url: "https://cleanOps.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: cleanOps                                    # site's title
+title: CleanOps                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: cleanOps  # Change Blog header text
+header_text: CleanOps  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   cleanOps ©

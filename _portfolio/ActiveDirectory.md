@@ -31,7 +31,7 @@ Active Directory Security Assessment benefits
 - Identify possible attack paths within the Active Directory infrastructure
 
 
-We will then make recommendations to:🚩
+`We will then make recommendations to:`🚩
 
 - Harden privileged user access and privileged access management
 

@@ -26,7 +26,7 @@ Active Directory Security Assessment benefits:
 - Identify possible attack paths within the Active Directory infrastructure
 
 
-`We will then make recommendations to:`🚩
+`We will then make recommendations to:`
 
 - Harden privileged user access and privileged access management
 
@@ -35,4 +35,4 @@ Active Directory Security Assessment benefits:
 - Provide a strategic roadmap to improve the overall `Active Directory` infrastructure
 
 
-> As our client at the end of the assessment you can expect to get a practical Active Directory hardening guidance and mitigations, prioritized approach to further leverage existing technologies and investments and a detailed report including recommendations for further hardening the security posture of the Active Directory infrastructure
+> As our client at the end of the assessment you can expect to get a practical `Active Directory` hardening guidance and mitigations, prioritized approach to further leverage existing technologies and investments and a detailed report including recommendations for further hardening the security posture of the Active Directory infrastructure 🚩

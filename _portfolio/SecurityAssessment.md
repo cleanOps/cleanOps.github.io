@@ -25,7 +25,11 @@ In order to keep up with the risk of attacks, organisations need to utilise prof
 Our approach can be summarised as follows:
 
 1. We establish the scope, so that you can control the effects of any possible test in time and space. We also agree upfront on escalation and incident management procedures in case tests yield a noticeable operational effect.
+
 2. We document the type of attacks, the applications, the data and the potential weaknesses you are most concerned about. Our experience has shown that every company has its unique risk profile that drives the type, scope and level of hostility of our tests.
+
 3. We determine and scan for the systems, network components, and wireless connection points visible from the attack points. Our experience has shown that this type of discovery generally leads to surprises that confirm the need of attack and penetration testing.
+
 4. We conduct a wide range of vulnerability scans and simulated attacks. This ensures that the tests don’t miss anything and yet do not harm your normal operations.
+
 5. A combination of Internet based and inside-the-DMZ tests ensure complete coverage and allows you to understand the vulnerability level in case of faulty configuration or maintenance later on.

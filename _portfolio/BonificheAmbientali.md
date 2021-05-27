@@ -33,23 +33,6 @@ apparecchi apparentemente simili, come telefoni, tastiere, superfici uniformi.
 grado di segnalare ogni tipo di componente elettronico anche se nascosto
 all’interno di pannelli o pareti, cosi’ come dietro a quadri o altri elementi.
 
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
 
 __Note:__ Si sottolinea che i risultati del lavoro di ispezione sono relativi al periodo
 temporale indicato, non potendosi escludere che in altro momento possano

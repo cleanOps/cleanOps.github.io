@@ -7,7 +7,7 @@ date: 2021-05-21
 ---
 
 
-Eseguiamo __bonifiche__ __ambientali__ relative a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
+Eseguiamo __bonifiche__ __ambientali__ relativa a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
 adeguatamente sicura e protetta. Scopo dell’ispezione è verificare l’eventuale
 presenza di strumenti occulti idonei ad intercettare o tracciare e trasferire
 suoni, immagini o informazioni delle attività che vengono svolte.
@@ -33,14 +33,29 @@ apparecchi apparentemente simili, come telefoni, tastiere, superfici uniformi.
 grado di segnalare ogni tipo di componente elettronico anche se nascosto
 all’interno di pannelli o pareti, cosi’ come dietro a quadri o altri elementi.
 
+## Boxes
+You can add notification, warning and error boxes like this:
+
+### Notification
 
 {: .box-note}
-**Note:** Si sottolinea che i risultati del lavoro di ispezione sono relativi al periodo
+**Note:** This is a notification box.
+
+### Warning
+
+{: .box-warning}
+**Warning:** This is a warning box.
+
+### Error
+
+{: .box-error}
+**Error:** This is an error box.
+
+__Note:__ Si sottolinea che i risultati del lavoro di ispezione sono relativi al periodo
 temporale indicato, non potendosi escludere che in altro momento possano
 essere stati installati e rimossi dispositivi anche illegali per rilevare la posizione
 del veicolo o effettuare registrazioni audio-video a bordo del medesimo o nei
 locali 🚩
-
 
 Il lavoro si articola in svariate ore perché per ogni segnale rilevato (foss’anche
 un’emissione innocua da locali limitrofi )il sistema si arresta per

@@ -12,13 +12,7 @@ Using this proactive methodology, organizations can enhance their `Active Direct
 
 Active Directory Security Assessment benefits
 
-<p align="center">
-  <img src="assets/img/pexels/travel.png">
-</p>
-
-<p align="center">
-  <img src="assets/img/pexels/fy2.JPG">
-</p>
+{% include aligner.html images="pexels/fy2.JPG" column=1 %}
 
 **CentralOps** experts conduct a series of onsite workshops in collaboration with key stakeholders from the client organization to:
 

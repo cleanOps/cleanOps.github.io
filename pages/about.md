@@ -5,7 +5,7 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.png"
 ---
 
-Hello everyone and welcome to CleanOps. We are a small team of highly capable individual with a strong will to succeed. 
+Hello everyone and welcome to **CleanOps**. We are a small team of highly capable individual with a strong will to succeed. 
 We all have different level of expertiese and experience and we all bring to the table new values to protect your valuable business, let this be your people, your data, your critical assets or your infrastructure.
 Our expertiese span across technical and managerial aspects including international experience.
 
@@ -14,7 +14,7 @@ The consultancy provides for the choice of any physical and electronic protectio
 
 Please for any further enquire get back to us at the following details:
 
-1. Phone number:12345
+1. **Phone number**:12345
 
-2. Email Address: cleanops09@gmail.com
+2. **Email Address**: cleanops09@gmail.com
  

@@ -22,7 +22,7 @@ In order to keep up with the risk of attacks, organisations need to utilise prof
 
 **CleanOps** work plan has been aligned to your needs and operates proactively to identify threats in all external or internal access points and suggest clear remediation options.
 
-Our approach can be summarised as follows:
+`Our approach can be summarised as follows:`
 
 1. We establish the scope, so that you can control the effects of any possible test in time and space. We also agree upfront on escalation and incident management procedures in case tests yield a noticeable operational effect.
 

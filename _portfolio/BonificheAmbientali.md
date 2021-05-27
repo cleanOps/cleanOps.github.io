@@ -22,10 +22,12 @@ fornendo report completo ed immediato di ogni emissione rilevata. Il sistema
 è in grado di rilevare le emissioni di apparati anche nascosti, purchè all’interno
 del range di ricerca.
 
+
 2. Altre ricerche vengono effettuate a mezzo TERMOCAMERA FLIR, in grado di
 evidenziare la traccia termica determinata dall’alimentazione degli apparati di
 intercettazione, anche se occultati. Vengono altresì rese visibili differenze tra
-apparecchi apparentemente simili, come telefoni, tastiere, superfici uniformi .
+apparecchi apparentemente simili, come telefoni, tastiere, superfici uniformi.
+
 
 3. Ulteriore strumento è un RILEVATORE DI GIUNZIONI NON LINEARI, in
 grado di segnalare ogni tipo di componente elettronico anche se nascosto

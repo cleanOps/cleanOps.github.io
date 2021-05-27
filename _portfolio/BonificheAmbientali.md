@@ -34,11 +34,13 @@ grado di segnalare ogni tipo di componente elettronico anche se nascosto
 all’interno di pannelli o pareti, cosi’ come dietro a quadri o altri elementi.
 
 
-__Note:__ Si sottolinea che i risultati del lavoro di ispezione sono relativi al periodo
+{: .box-note}
+**Note:** Si sottolinea che i risultati del lavoro di ispezione sono relativi al periodo
 temporale indicato, non potendosi escludere che in altro momento possano
 essere stati installati e rimossi dispositivi anche illegali per rilevare la posizione
 del veicolo o effettuare registrazioni audio-video a bordo del medesimo o nei
 locali 🚩
+
 
 Il lavoro si articola in svariate ore perché per ogni segnale rilevato (foss’anche
 un’emissione innocua da locali limitrofi )il sistema si arresta per
@@ -48,10 +50,10 @@ lo stesso dicasi per i veicoli.
 
 
 Nel caso dei veicoli è utile prevedere la possibilità
-di sollevarli singolarmente su ponte per ispezione sia visiva che elettronica. __Nel
+di sollevarli singolarmente su ponte per ispezione sia visiva che elettronica. **Nel
 caso di locali situati nel centro abitato, si suggerisce di effettuare le operazioni
 di scan durante le ore notturne, per il miglior isolamento di eventuali frequenze
-e segnali. L’ispezione dei veicoli a differenza degli uffici prevede anche il
+e segnali**. L’ispezione dei veicoli a differenza degli uffici prevede anche il
 rilevamento di segnali `GPS` che indicherebbero un’attività di tracciamento del
 veicolo stesso.È richiesta la presenza di due Operatori per l’esecuzione delle
 rilevazioni

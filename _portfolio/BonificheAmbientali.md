@@ -7,7 +7,7 @@ date: 2021-05-21
 ---
 
 
-Eseguiamo __bonifiche__ __ambientali__ relativa a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
+Eseguiamo __bonifiche__ __ambientali__ relative a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
 adeguatamente sicura e protetta. Scopo dell’ispezione è verificare l’eventuale
 presenza di strumenti occulti idonei ad intercettare o tracciare e trasferire
 suoni, immagini o informazioni delle attività che vengono svolte.

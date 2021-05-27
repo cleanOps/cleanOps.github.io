@@ -7,12 +7,12 @@ date: 2021-05-21
 ---
 
 
-Eseguiamo bonifiche ambientali relativa a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
+Eseguiamo __bonifiche__ __ambientali__ relativa a locali, superfici ed autoveicoli, con questo intendendo l’accertamento del fatto che la privacy del committente sia
 adeguatamente sicura e protetta. Scopo dell’ispezione è verificare l’eventuale
 presenza di strumenti occulti idonei ad intercettare o tracciare e trasferire
 suoni, immagini o informazioni delle attività che vengono svolte.
 
-1. Gli interventi vengono svolti con `SCANNER MULTIFREQUENZA` che rileva
+- Gli interventi vengono svolti con `SCANNER MULTIFREQUENZA` che rileva
 ed analizza nel corso delle ore per ogni singolo locale (o veicolo) la presenza
 di segnali di trasmissione o tracciamento su tutte le frequenze note per questi
 impieghi.
@@ -23,13 +23,13 @@ fornendo report completo ed immediato di ogni emissione rilevata. Il sistema
 del range di ricerca.
 
 
-2. Altre ricerche vengono effettuate a mezzo `TERMOCAMERA FLIR`, in grado di
+- Altre ricerche vengono effettuate a mezzo `TERMOCAMERA FLIR`, in grado di
 evidenziare la traccia termica determinata dall’alimentazione degli apparati di
 intercettazione, anche se occultati. Vengono altresì rese visibili differenze tra
 apparecchi apparentemente simili, come telefoni, tastiere, superfici uniformi.
 
 
-3. Ulteriore strumento è un `RILEVATORE DI GIUNZIONI NON LINEARI`, in
+- Ulteriore strumento è un `RILEVATORE DI GIUNZIONI NON LINEARI`, in
 grado di segnalare ogni tipo di componente elettronico anche se nascosto
 all’interno di pannelli o pareti, cosi’ come dietro a quadri o altri elementi.
 
@@ -48,7 +48,7 @@ lo stesso dicasi per i veicoli.
 
 
 Nel caso dei veicoli è utile prevedere la possibilità
-di sollevarli singolarmente su ponte per ispezione sia visiva che elettronica. Nel
+di sollevarli singolarmente su ponte per ispezione sia visiva che elettronica. __Nel
 caso di locali situati nel centro abitato, si suggerisce di effettuare le operazioni
 di scan durante le ore notturne, per il miglior isolamento di eventuali frequenze
 e segnali. L’ispezione dei veicoli a differenza degli uffici prevede anche il

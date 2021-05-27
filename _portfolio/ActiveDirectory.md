@@ -13,15 +13,21 @@ Using this proactive methodology, organizations can enhance their Active Directo
 Active Directory Security Assessment benefits
 
 
-CentralOps experts conduct a series of onsite workshops in collaboration with key stakeholders from the client organization to:
+**CentralOps** experts conduct a series of onsite workshops in collaboration with key stakeholders from the client organization to:
 
-- Perform data collection
-- Analyze script output
+- Perform data collection using a combination of public and private software
+
+- Analyze data output 
+
 - Evaluate the architecture (on-premise and cloud environments)
+
 - Identify possible attack paths within the Active Directory infrastructure
 
-We will then make recommendations to:
+
+We will then make recommendations to:🚩
 
 - Harden privileged user access and privileged access management
-- Enhance visibility and detection of malicious events within Active Directory
-- Provide a strategic roadmap to improve the overall Active Directory infrastructure
+
+- Enhance visibility and detection of malicious events within `Active Directory`
+
+- Provide a strategic roadmap to improve the overall `Active Directory` infrastructure

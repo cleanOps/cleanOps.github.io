@@ -57,7 +57,7 @@ veicolo stesso.È richiesta la presenza di due Operatori per l’esecuzione dell
 rilevazioni
 
 
-> 🚩 L’insieme delle ricerche svolte assicura il più alto grado di probabilità di rilevare ogni strumento abusivo, anche il più recente, sia esso evoluto o miniaturizzato 🚩
+>L’insieme delle ricerche svolte assicura il più alto grado di probabilità di rilevare ogni strumento abusivo, anche il più recente, sia esso evoluto o miniaturizzato 
 
 
 

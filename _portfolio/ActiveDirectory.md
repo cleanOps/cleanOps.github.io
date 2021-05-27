@@ -13,7 +13,7 @@ Using this proactive methodology, organizations can enhance their `Active Direct
 Active Directory Security Assessment benefits
 
 <p align="center">
-  <img src="assets/img/pexels/fy.PNG">
+  <img src="assets/img/pexels/travel.png">
 </p>
 
 <p align="center">

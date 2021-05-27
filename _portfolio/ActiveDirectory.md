@@ -10,7 +10,7 @@ No organization with an information technology (IT) infrastructure is immune fro
  
 Using this proactive methodology, organizations can enhance their `Active Directory` security posture and protect against incidents that exploit common weaknesses in an Active Directory environment.
 
-Active Directory Security Assessment benefits:
+`Active Directory Security Assessment benefits:`
 
 {% include aligner.html images="pexels/fy2.JPG" column=1 %}
 

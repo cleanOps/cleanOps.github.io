@@ -10,9 +10,10 @@ No organization with an information technology (IT) infrastructure is immune fro
  
 Using this proactive methodology, organizations can enhance their `Active Directory` security posture and protect against incidents that exploit common weaknesses in an Active Directory environment.
 
-Active Directory Security Assessment benefits
+Active Directory Security Assessment benefits:
 
 {% include aligner.html images="pexels/fy2.JPG" column=1 %}
+
 
 **CentralOps** experts conduct a series of onsite workshops in collaboration with key stakeholders from the client organization to:
 
@@ -32,3 +33,6 @@ Active Directory Security Assessment benefits
 - Enhance visibility and detection of malicious events within `Active Directory`
 
 - Provide a strategic roadmap to improve the overall `Active Directory` infrastructure
+
+
+> As our client you can expect to get a practical Active Directory hardening guidance and mitigations, prioritized approach to further leverage existing technologies and investments and a detailed report including recommendations for further hardening the security posture of the Active Directory infrastructure

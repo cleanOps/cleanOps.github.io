@@ -5,8 +5,7 @@ feature-img: "assets/img/feature-img/circuit.jpeg"
 thumbnail: "assets/img/thumbnails/feature-img/circuit.jpeg"
 ---
 
-The idea behind CleanOps was born on a rainy Sunday afternoon somewhere around Europe...
-
+From attack surface discovery to vulnerability identification, actionable network intelligence for IT & security operations
 
 
 

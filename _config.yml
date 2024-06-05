@@ -1,69 +1,44 @@
-# SITE CONFIGURATION
-title: Comsecops # your site title
-author: comsecops # You :P
-description: "A website with blog posts and pages"      # used by search engines
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cleanops.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Site settings
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
 
-# Header and footer text
-header_text: CleanOps  # Change Blog header text
-header_feature_image: assets/img/triangular.jpg
-footer_text: >
-  CleanOps ©
+author:
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
 
-# SEO PLUGIN
-social:
-  name: Comsecops
-  links:
-    - https://twitter.com/comsecops
-    - https://www.linkedin.com/in/comsecops
-    - https://github.com/comsecops
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
-
-tagline: >
-
-  From attack surface discovery to vulnerability identification, actionable network intelligence for IT &amp; security operations.
-
-hero_img: posts/sleek.jpeg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
-
-email: info@comsecops.com # email for form submission
-
-twitter_username: comsecops # replace with your_twitter_username or comment to remove link from footer
-github_username:  comsecops # replace with your_github_username or comment to remove link from footer
-instagram_username: comsecops # replace with your_instagram_username or comment to remove link from footer
-
-#disqus:
-#  shortname: comsecops # to enable comments replace with your_disqus_shortname
-
-service_worker: true
-
-# BUILD SETTINGS
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpeg
+highlighter: rouge
 
-include: ['_pages']
-permalink: /:title/
+sass:
+    sass_dir: _sass
+    style: compressed
 
-compress_html:
-  clippings: all
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-plugins:
-  - jekyll-sitemap
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

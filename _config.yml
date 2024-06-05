@@ -6,6 +6,12 @@ description: "A website with blog posts and pages"      # used by search engines
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cleanops.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Header and footer text
+header_text: CleanOps  # Change Blog header text
+header_feature_image: assets/img/triangular.jpeg
+footer_text: >
+  CleanOps ©
+
 # SEO PLUGIN
 social:
   name: Comsecops

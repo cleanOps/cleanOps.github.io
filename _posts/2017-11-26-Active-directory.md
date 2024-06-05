@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cybersecurity Assessment
+title: Active directory
 featured-img: sleek
 mathjax: true
 ---

@@ -1,7 +1,8 @@
 # Site settings
 title: Comsecops
-author: comsecops # You :P
-description: "A website with blog posts and pages" baseurl: "" # the subpath of your site, e.g. /blog
+author: comsecops # 
+description: "A website with blog posts and pages" 
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cleanops.github.io"
 # google_analytics: 'UA-XXXXXX-X' 
 # disqus_shortname: 'your-disqus-name'

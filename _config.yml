@@ -8,7 +8,7 @@ url: "https://cleanops.github.io" # the base hostname & protocol for your site, 
 
 # Header and footer text
 header_text: CleanOps  # Change Blog header text
-header_feature_image: assets/img/triangular.jpeg
+header_feature_image: assets/img/triangular.jpg
 footer_text: >
   CleanOps ©
 

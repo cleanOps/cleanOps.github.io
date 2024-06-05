@@ -1,7 +1,6 @@
 # SITE CONFIGURATION
 title: Comsecops # your site title
 author: comsecops # You :P
-avatar: assets/img/triangle.png
 description: "A website with blog posts and pages"      # used by search engines
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cleanops.github.io" # the base hostname & protocol for your site, e.g. http://example.com

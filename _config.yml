@@ -10,14 +10,11 @@ url: "https://cleanops.github.io/" # the base hostname & protocol for your site,
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Comsecops
   links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+    - https://twitter.com/comsecops
+    - https://www.linkedin.com/in/comsecops
+    - https://github.com/comsecops
 
 # THEME SETTINGS
 navigation: # Navigation links

@@ -1,116 +1,97 @@
-# ----
-# Site
+# WhatATheme
+markdown: kramdown
 
-title: Comsecops
-url: "https://cleanops.github.io/"
-baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Jekyll template with example content cyber.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Comsecops Template
-  #links:
- #   - https://github.com/CloudCannon/justice-jekyll-template
+# Title of the Site
+title: What A Theme
+# Description of the Site
+description: A customizable Jekyll portfolio theme
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
 
-# -----
-# Build
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 
-timezone: Etc/UTC
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: thedevslot@gmail.com
+facebook_username: thedevslot
+twitter_username: thedevslot
+instagram_username: thedevslot
+linkedin_username: thedevslot
+github_username:  thedevslot
+youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
 
-paginate: 10
-paginate_path: "/blog/:num/"
+# Google Analytics
+google-analytics: UA-163806439-1
 
-collections:
-  - "staff_members"
+# Disqus
+disqus-shortname: thedevslot
 
+# Name of the Author
+author-name: TheDevsLot
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# 60 Words About the Author
+author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
 defaults:
   -
     scope:
-      path: ""
-    values:
-      layout: page
-      background_image_path: /uploads/immagine.png
-      image: /uploads/immagine.png
-  -
-    scope:
-      path: ""
-      type: "posts"
+      type: 'posts'
     values:
       layout: post
-      _options:
-        content:
-          width: 960
-          height: 2000
-      _comments:
-        image: Shown in social shares and the blog list.
+      post-image: ""
+      description: ""
+      tags:
+        - ""
   -
     scope:
-      path: ""
-      type: "staff_members"
+      type: 'pages'
     values:
-      _options:
-        image:
-          width: 440
-          height: 440
+      layout: page
 
-permalink: pretty
-
-jekyll-archives:
-  enabled:
-    - categories
-
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
-
+# Exclude
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - LICENCE
-
-# -----------
-# CloudCannon
-
-_select_data:
-  call_to_actions:
-    - Contact
-    - Blog
-    - Map
-
-  social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
-
-_comments:
-  large_header: Toggles the size of the top banner.
-  show_in_navigation: Toggles a link in the top banner.
-  author_staff_member: The staff member writing this post.
-  call_to_action: Type of request shown at the bottom of this page.
-  background_image_path: Image shown in the top banner, blank for the default.
-  testimonials: Update, add or remove testimonials.
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  phone_extension: The digits after dialing the company phone.
-  credentials: Shown as subtext on staff member summaries.
-  contact_email_address: Address for the contact form to send to.
-  new_window: Whether the link opens a new browser tab/window.
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

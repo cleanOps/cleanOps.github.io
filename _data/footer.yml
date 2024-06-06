@@ -13,18 +13,18 @@
 - title: Social
   links:
     - name: Facebook
-      link: http://facebook.com/cloudcannon/
+      link: http://facebook.com/comsecops/
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link: http://twitter.com/cloudcannon
+      link: http://twitter.com/comsecops
       social_icon: Twitter
       new_window: true
     - name: Instagram
-      link: http://instagram.com/
+      link: http://instagram.com/comsecops
       social_icon: Instagram
       new_window: true
     - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon/
+      link: https://linkedin.com/comsecops
       social_icon: LinkedIn
       new_window: true

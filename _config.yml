@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Justice Template
-url: "https://orchid-heron.cloudvent.net"
+title: Comsecops
+url: "https://cleanops.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+description: Jekyll template with example content cyber.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
-  links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+  name: Comsecops Template
+  #links:
+ #   - https://github.com/CloudCannon/justice-jekyll-template
 
 # -----
 # Build

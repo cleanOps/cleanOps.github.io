@@ -1,69 +1,116 @@
-# SITE CONFIGURATION
-title: Comsecops # your site title
-author: comsecops # You :P
-description: "A website with blog posts and pages"      # used by search engines
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cleanops.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# ----
+# Site
 
-# Header and footer text
-header_text: CleanOps  # Change Blog header text
-header_feature_image: assets/img/triangular.jpg
-footer_text: >
-  CleanOps ©
+title: Justice Template
+url: "https://orchid-heron.cloudvent.net"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+disqus_shortname:
 
-# SEO PLUGIN
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Jekyll template with example content for a law firm.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
 social:
-  name: Comsecops
+  name: Justice Template
   links:
-    - https://twitter.com/comsecops
-    - https://www.linkedin.com/in/comsecops
-    - https://github.com/comsecops
+    - https://github.com/CloudCannon/justice-jekyll-template
 
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+# -----
+# Build
 
-tagline: >
+timezone: Etc/UTC
 
-  From attack surface discovery to vulnerability identification, actionable network intelligence for IT &amp; security operations.
+paginate: 10
+paginate_path: "/blog/:num/"
 
-hero_img: posts/sleek.jpeg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+collections:
+  - "staff_members"
 
-email: info@comsecops.com # email for form submission
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+      background_image_path: /uploads/building.jpg
+      image: /uploads/building.jpg
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      _options:
+        content:
+          width: 960
+          height: 2000
+      _comments:
+        image: Shown in social shares and the blog list.
+  -
+    scope:
+      path: ""
+      type: "staff_members"
+    values:
+      _options:
+        image:
+          width: 440
+          height: 440
 
-twitter_username: comsecops # replace with your_twitter_username or comment to remove link from footer
-github_username:  comsecops # replace with your_github_username or comment to remove link from footer
-instagram_username: comsecops # replace with your_instagram_username or comment to remove link from footer
+permalink: pretty
 
-#disqus:
-#  shortname: comsecops # to enable comments replace with your_disqus_shortname
-
-service_worker: true
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpeg
-
-include: ['_pages']
-permalink: /:title/
-
-compress_html:
-  clippings: all
+jekyll-archives:
+  enabled:
+    - categories
 
 plugins:
+  - jekyll-archives
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+_select_data:
+  call_to_actions:
+    - Contact
+    - Blog
+    - Map
+
+  social_icons:
+    - Facebook
+    - Instagram
+    - LinkedIn
+    - Pinterest
+    - Tumblr
+    - Twitter
+    - YouTube
+    - RSS
+
+_comments:
+  large_header: Toggles the size of the top banner.
+  show_in_navigation: Toggles a link in the top banner.
+  author_staff_member: The staff member writing this post.
+  call_to_action: Type of request shown at the bottom of this page.
+  background_image_path: Image shown in the top banner, blank for the default.
+  testimonials: Update, add or remove testimonials.
+  map: Update the map location and display settings.
+  latitude: Coordinates for the center marker on the map.
+  longitude: Coordinates for the center marker on the map.
+  zoom: The zoom level for the map.
+  phone_extension: The digits after dialing the company phone.
+  credentials: Shown as subtext on staff member summaries.
+  contact_email_address: Address for the contact form to send to.
+  new_window: Whether the link opens a new browser tab/window.

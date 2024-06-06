@@ -2,7 +2,7 @@
 layout: page
 title : Services 
 permalink: /services/
-subtitle: "We can provide expertiese in different security domains" 
+subtitle: "Expertiese in different cyber and personal security domains" 
 feature-img: "assets/img/pexels/comp.png"
 ---
 

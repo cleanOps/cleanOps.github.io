@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Bonifiche Ambientali
-feature-img: "assets/img/portfolio/safe.JPG"
-img: "assets/img/portfolio/safe.JPG"
+feature-img: "assets/img/portfolio/seass.JPG"
+img: "assets/img/portfolio/seass.JPG"
 date: 2021-05-21
 ---
 

@@ -1,85 +1,117 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
-<head>
-  {% include head.html %}
-</head>
+{% include head.html %}
 
-<body>
-  {% include navbar.html %}
+<body class="site">
 
-  <section class="hero is-fullheight has-text-centered" id="post">
-    <div class="hero-body">
-      <div class="container">
-        <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
-          <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
-        </a>
-        <hr class="has-background-black">
-        <div class="columns is-variable is-5">
-          <div class="column is-6">
-            <figure class="image is-16by9 has-shadow">
-              <img src="{{page.post-image}}" alt="{{post.title}}" id="post-image">
-            </figure>
-          </div>
-          <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
-            {% unless page.description.size == 0 %}
-            <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
-            {% endunless %}
-            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Published on
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> by <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
-              </a>
-            </p>
-            {%- assign tags = page.tags -%}
-            {%- unless tags.size == 0 -%}
-            <p class="subtitle is-uppercase">
-              <i class="fas fa-tags"></i>
-              {% assign i = 0 %}
-              {% for tags in page.tags %}
-              <span class="tag is-link">{{page.tags[i]}}</span>
-              {% assign i = i | plus:1 %}
-              {% endfor %}
-            </p>
-            {%- endunless -%}
+{% if site.google_tag_manager %}
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+{% endif %}
+
+{% include header.html %}
+
+  {% if page.featured-img %}
+  <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
+  {% else %}
+  <div class="hero dark-bg">
+  {% endif %}
+    <div class="hero__wrap">
+      {% if post.categories or page.categories %}
+        <div class="hero__categories">
+          {% if post %}
+            {% assign categories = post.categories %}
+          {% else %}
+            {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      <h1 class="hero__title">{{ page.title }}</h1>
+      <p class="hero__meta">
+        <span>
+          <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
+        </span>
+        <span>
             {% assign words = content | number_of_words %}
-            {%- unless content.size == 0 -%}
-            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
-                {{ words | divided_by:180 }} min
-              </b>READ</p>
-            {%- endunless -%}
-          </div>
+              {% if words < 360 %}
+                1 min
+              {% else %}
+                {{ words | divided_by:180 }} mins
+            {% endif %} read
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <main class="site__content">
+    <div class="container">
+      <article class="post-content" itemprop="articleBody">
+
+        {{ content }}
+
+      </article>
+      <div class="post-content controls__inner">
+        <div class="controls__item prev">
+          {% if page.previous.url %}
+
+          <span>Previous</span>
+          <a href="{{page.previous.url | relative_url }}">
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                    <path fill="fillColor" d="M5.647 1.718c.37-.434.323-1.09-.106-1.465A1.016 1.016 0 0 0 4.095.36L.25 4.875a1.05 1.05 0 0 0 .017 1.378l3.95 4.407c.38.424 1.03.456 1.448.07a1.05 1.05 0 0 0 .07-1.468l-3.34-3.725 3.253-3.819z"/>
+                  </svg>
+              </span>
+            {{page.previous.title | strip_html | truncate: 30}}
+          </a>
+          {% endif %}
         </div>
-        <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
-          <p>{{ content }}</p>
+
+        <div class="controls__item next">
+          {% if page.next.url %}
+          <span>Next</span>
+          <a href="{{page.next.url | relative_url }}">
+            {{page.next.title | strip_html | truncate: 30}}
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11">
+                  <path fill="#fillColor" d="M.353 9.282c-.37.434-.323 1.09.106 1.465a1.016 1.016 0 0 0 1.446-.107L5.75 6.125a1.05 1.05 0 0 0-.017-1.378L1.784.34A1.015 1.015 0 0 0 .336.27a1.05 1.05 0 0 0-.07 1.468l3.34 3.725L.353 9.282z"/>
+                </svg>
+              </span>
+          </a>
+          {% endif %}
         </div>
-        {% unless site.disqus-shortname == "" %}
-        <div class="disqus-comments" id="disqus_thread"></div>
-        {% endunless %}
       </div>
     </div>
-  </section>
+
+    {% if site.disqus.shortname %}
+
+    <div class="comments">
+      <div class="container">
+        <div class="post-content">
+
+          {% include disqus.html %}
+
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+
+  </main>
+
   {% include footer.html %}
+  {% include mathjax.html %}
 </body>
-<script>
-  /**
-   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function () { /* DON'T EDIT BELOW THIS LINE */
-    var d = document,
-      s = d.createElement('script');
-    s.src = 'https://{{site.disqus-shortname}}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
 
 </html>

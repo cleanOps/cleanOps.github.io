@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Active Directory
-feature-img: "assets/img/portfolio/AD.JPG"
-img: "assets/img/portfolio/AD.JPG"
+feature-img: "assets/img/portfolio/immagine.png"
+img: "assets/img/portfolio/immagine.png"
 date: 2021-05-20
 ---
 
